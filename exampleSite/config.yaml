@@ -3,17 +3,17 @@ languageCode: "en-us"
 title: "Sreenivas"
 theme: master
 
-outputs:
-  home:
-    - "HTML"
-    - "RSS"
-    - "JSON"
-  page:
-    - "HTML"
-    - "RSS"
+# outputs:
+#   home:
+#     - "HTML"
+#     - "RSS"
+#     - "JSON"
+#   page:
+#     - "HTML"
+#     - "RSS"
 
 Paginate: 3
-enableRobotsTXT: true
+enableRobotsTXT: false
 # disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
 
@@ -44,7 +44,7 @@ params:
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
   # Note the lack of "" in true, it should be of boolean type.
-  useBootstrapCDN: false
+  # useBootstrapCDN: false
 
   # If you want to load dynamically responsive images from Cloudinary
   # This requires your images to be uploaded + hosted on Cloudinary
@@ -52,7 +52,7 @@ params:
   # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
 
   # Whether the fade animations on the home page will be enabled
-  animate: true
+  # animate: true
 
   theme:
     disableThemeToggle: false
@@ -62,11 +62,7 @@ params:
     # disableThemeToggle: true
     # defaultTheme: "light" # dark
 
-  font:
-    fontSize: 1rem # default: 1rem
-    fontWeight: 400 # default: 400
-    lineHeight: 1.5 # default: 1.5
-    textAlign: left # default: left
+  # 
 
   # color preference
   # color:
@@ -92,8 +88,8 @@ params:
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
     # brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
-    # disableSearch: true
-    # searchPlaceholder: "Search"
+    disableSearch: true
+    searchPlaceholder: "Search"
     # menus:
     #   disableAbout: false
     #   disableExperience: false
@@ -131,7 +127,7 @@ params:
   about:
     enable: true
     title: "Eager to Contribute from December 2023!"
-    image: "/images/sreee.jpeg"
+    image: "/images/sreee.png"
     content: |-
       Currently, working as a Graduate Teaching Assitant at RIT in Big Data Analytics. A Masters in Computer Science student with 4+ years of professional experience in Java, Spring boot, Spring, Python, FLask, Go, NodeJS, SQL. 
       I have a strong interest in the the intersection of Technology and Business. Skills:
