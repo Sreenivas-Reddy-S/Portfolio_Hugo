@@ -3,100 +3,26 @@ languageCode: "en-us"
 title: "Sreenivas"
 theme: master
 
-# outputs:
-#   home:
-#     - "HTML"
-#     - "RSS"
-#     - "JSON"
-#   page:
-#     - "HTML"
-#     - "RSS"
-
 Paginate: 3
 enableRobotsTXT: false
-# disqusShortname: your-disqus-shortname
-# googleAnalytics: G-MEASUREMENT_ID
 
 markup:
   goldmark:
     renderer:
       unsafe: true
 
-# Menus:
-#   main:
-#     - identifier: blog
-#       name: Blog
-#       title: Blog posts
-#       url: /blogs
-#       weight: 1
-#     - identifier: gallery
-#       name: Gallery
-#       title: Blog posts
-#       url: /gallery
-#       weight: 2
-
 params:
-  # title: "Hugo Profile"
-  # description: Text about my cool site
-  # staticPath: ""  # The path to serve the static files from
-  # favicon: "/fav.png"
-
-  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
-  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
-  # Note the lack of "" in true, it should be of boolean type.
-  # useBootstrapCDN: false
-
-  # If you want to load dynamically responsive images from Cloudinary
-  # This requires your images to be uploaded + hosted on Cloudinary
-  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
-  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
-
-  # Whether the fade animations on the home page will be enabled
-  # animate: true
-
   theme:
     disableThemeToggle: false
     defaultTheme: "light" # dark
     color:  
         secondaryBackgroundColor: "Blue"
-    # disableThemeToggle: true
-    # defaultTheme: "light" # dark
-
-  # 
-
-  # color preference
-  # color:
-  #   textColor:
-  #   secondaryTextColor:
-  #   backgroundColor:
-  #   secondaryBackgroundColor:
-  #   primaryColor:
-  #   secondaryColor:
-
-  #   darkmode:
-  #     textColor:
-  #     secondaryTextColor:
-  #     backgroundColor:
-  #     secondaryBackgroundColor:
-  #     primaryColor:
-  #     secondaryColor:
 
   # If you want to customize the menu, you can change it here
   navbar:
     position: absolute
-    # align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    # showBrandLogo: false # Show brand logo in nav bar | default is true
-    # brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
-    disableSearch: true
-    searchPlaceholder: "Search"
-    # menus:
-    #   disableAbout: false
-    #   disableExperience: false
-    #   disableEducation: false
-    #   disableProjects: false
-    #   disableAchievements: false
-    #   disableContact: false
+    # disableSearch: true
+    # searchPlaceholder: "Search"
 
   # Hero
   hero:
@@ -152,11 +78,6 @@ params:
         company: "Rochester Institute Of Technology"
         companyUrl: "https://www.rit.edu"
         date: "Jan 2022 - Present"
-        # info:
-        #   enable: false
-        # featuredLink:
-        #   enable: true
-        #   url: "https://example.com"
         content: |-
           - Assisted 60 students in answering technical questions, evaluated their insights, math & analysis on assignments based on the correctness and runtime of their algorithms(classification, clustering) in Big Data Analytics.
           - Designed and evaluated quizzes to reinforce students learning of skills and through weekly check-ins.
@@ -166,10 +87,6 @@ params:
         company: "Home Credit India Finance Pvt Ltd"
         companyUrl: "https://www.homecredit.co.in/en"
         date: "Jun 2019 - Jul 2021"
-        # featuredLink:
-        #   enable: true
-        #   name: "View the project"
-        #   url: "https://example.com"
         content: |-
           - As a backend developer, Implemented best practices for various Web API's & Data API's of a micro-services system using Java, Spring, Spring Boot and integrated using MuleSoft Anypoint studio by utilizing the internal framework(SDLC).Testing: 100% Unit tests coverage.
           - Integrated API's to existing front end application using ReactJs. Setup CI/CD pipeline using Jenkins to auto-deploy the API's in different environments which improved teams efficiency by 30%.
@@ -180,18 +97,11 @@ params:
         company: "Assent Technologies"
         companyUrl: "https://assenttec.com"
         date: "Jan 2018 - Jun 2018"
-        # featuredLink:
-        #   enable: true
-        #   url: "https://example.com"
-        # info:
-        #   enable: true
-        #   content: I worked as a software developer for more than one year in Amazon.
         content: |-
           - Programmed different modules for a medical application using Python & SQL.
           - Wrote and tested code, improved functionalities & reliability of existing system by 36% reducing complexities, duplications and potential bugs.
           - Created several data visualizations for medical data using D3.js.
           - Performed web scraping on more than 100 websites to generate datasets as a part of the product roadmap.
-
 
   # Education
   education:
@@ -225,7 +135,6 @@ params:
             - Worked as a research volunteer and supported several projects in Deep Learning under Prof Anuradha. 
             - Exemplarily served as the Elected Cultural Association Club Secretary from 2017-2018.
 
-
     # projects
   projects:
     enable: true
@@ -238,7 +147,6 @@ params:
           - icon: fab fa-github
             url: https://drive.google.com/drive/folders/1KI1Ccgs19_ZMd5BVcPIlBAZay7IWdyY-?usp=sharing
        
-
       - title: Web Service Recommendation
         content: Recommending a Web Service by incorporating User related, Service related and Topic related Latent latent factors.
         image: /images/projects/Web_Service_Recommendation.jpeg
@@ -253,7 +161,6 @@ params:
           - icon: fab fa-github
             url: https://docs.google.com/presentation/d/1mkWo-2B44k_dTWMj3269Yly5kmdSMetn/edit?usp=share_link&ouid=104675213338128089020&rtpof=true&sd=true
 
-
   # Achievements
   achievements:
     enable: true
@@ -264,15 +171,14 @@ params:
         image: /images/AWS-Certified-Developer-Associate_badge.png
         url: https://www.credly.com/badges/ecfb59be-1fed-4d7b-af92-c3cc4988e10a/public_url
       - title: Microsoft Azure Developer Associate
-        content: Certified AMicrosoft Azure Developer Associate by Microsoft.
         image: /images/azure-developer-associate.png
+        content: Certified AMicrosoft Azure Developer Associate by Microsoft.
         url: https://www.credly.com/badges/a3ecea97-a321-46e3-b750-c97d32825ee3
       - title: Connect Four
         content: Developed a web application, connect four using JAVA & Multi-Threading and deployed it on AWS EC2 instance.
         image: /images/connect-four.jpeg
       - title: Cross Functional Training
         content: Awarded with the First Prize in the Cross Functional Training at Home Credit India Finance Pvt Ltd.
-        
 
   #Contact
   contact:
@@ -281,19 +187,9 @@ params:
     content: You can email me to get in touch with me. My inbox is always open. 
     email: srinu7529@gmail.com
     btnName: Mail me
-    # formspree:
-    #   enable: true # `contact.email` value will be ignored
-    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    #   emailCaption: "Enter your email address"
-    #   messageCaption: "Enter your message here"
 
   footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: false
-      disableFeaturedImage: false
+    recentPosts: false
     socialNetworks:
       github: "https://github.com/Sreenivas-Reddy-S"
       linkedin: https://www.linkedin.com/in/sagili-sreenivas-reddy-74a490129/
