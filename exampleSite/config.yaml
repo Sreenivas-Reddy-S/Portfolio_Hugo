@@ -35,11 +35,11 @@ Menus:
       url: /gallery
       weight: 2
 
-params:
-  title: "Hugo Profile"
-  description: Text about my cool site
-  # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+# params:
+#   title: "Hugo Profile"
+#   description: Text about my cool site
+#   # staticPath: ""  # The path to serve the static files from
+#   favicon: "/fav.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -100,8 +100,8 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hello there!"
-    title: "I am Sreenivas."
+    intro: "Hello there! I'm"
+    title: "Sreenivas Sagili."
     content: "A passionate programmer with experience in Software Development & Big Data Analytics who loves to build Microservices and develop API's."
     image: /images/sreeni.png
     bottomImage:
@@ -120,14 +120,14 @@ params:
         - icon: fab fa-twitter
           url: "https://www.twitter.com/@Cnu_Die"
       customIcons:
-        - icon: /fav.png
+        - icon: fab fa-linkedin
           url: "https://www.linkedin.com/in/sagili-sreenivas-reddy-74a490129/"
 
   # About
   about:
     enable: true
     title: "Eager to Contribute from December 2023!"
-    image: "/images/me.png"
+    image: "/images/sree.png"
     content: |-
       Currently, working as a Graduate Teaching Assitant at RIT in Big Data Analytics. A Masters in Computer Science student with 4+ years of professional experience in Java, Spring boot, Spring, Python, FLask, Go, NodeJS, SQL. 
       I have a strong interest in the the intersection of Technology and Business. Skills:
@@ -163,7 +163,7 @@ params:
           - Empowered students in seamless data sharing within Hadoop clusters on AWS S3 and facilitated ad-hoc data democratization initiatives.
 
       - job: "Software Developer"
-        company: "Home Credit India Finance Pvt"
+        company: "Home Credit India Finance Pvt Ltd"
         companyUrl: "https://www.homecredit.co.in/en"
         date: "Jun 2019 - Jul 2021"
         # featuredLink:
@@ -187,7 +187,8 @@ params:
         #   enable: true
         #   content: I worked as a software developer for more than one year in Amazon.
         content: |-
-          - "Programmed different modules for medical application using Python & SQL. Wrote and tested code, improved functionalities & reliability of existing system by 36% reducing complexities, duplications and potential bugs."
+          - "Programmed different modules for a medical application using Python & SQL." 
+          - "Wrote and tested code, improved functionalities & reliability of existing system by 36% reducing complexities, duplications and potential bugs."
           - "Created several data visualizations for medical data using D3.js."
           - "Performed web scraping on more than 100 websites to generate datasets as a part of the product roadmap."
 
@@ -203,7 +204,7 @@ params:
           name: "Rochester Institute Of Technology, New York"
         date: "2021 - 2023"
         GPA: "3.5 out of 4.0"
-        content: |-
+        content: |
           - Worked as a Graduate Teaching Assistant for Big Data Analytics at Rochester Institute Of Technology.
           - Relevant Academic Coursework: Data Structures and Algorithms, Advanced Object-Oriented Programming, Problem-Solving, Big Data Analytics, NoSQL/NewSQL Databases, Natural language processing, Distributed Systems, Machine Learning, Web Services & System Programming.
           Extracurricular Activities
@@ -214,7 +215,7 @@ params:
           name: "Vellore Institute of Technology, Vellore"
         date: "2015 - 2019"
         GPA: "8.4 out of 10.0"
-        content: |-
+        content: |
           - Won 2nd price in a Tech Workship conducted in VIT by IEEE club.
           - Computer Science Courses: Web Progromming, Cloud Computing, Cryptography and Network Security, Computer Programming, Data Structures, Computer Networks, Computer Architecture, Compiler Design, IoT (Internet of Things), Operating Systems, Distributed and Parallel Computing, High Performance Computing, Theory of Computation, Object Oriented Analysis and Design.
           - Data Science Courses: Artificial Intelligence, Web Mining, Big Data Analytics, Content based image analysis, Database Management.
@@ -230,7 +231,7 @@ params:
     items:
       - title: Stock Price Prediction
         content: "To predict the prices of stock at the smallest level of granularity using Artificial Neural Networks. Containerized extensible data ingestion, with out of the box implementation for the stock data and a neural network based model LSTM, well suitable for the time series data."
-        # image: /images/projects/converter.jpg
+        image: /images/projects/stock-price-prediction.jpeg
         links:
           - icon: fab fa-github
             url: https://drive.google.com/drive/folders/1KI1Ccgs19_ZMd5BVcPIlBAZay7IWdyY-?usp=sharing
@@ -238,14 +239,14 @@ params:
 
       - title: Web Service Recommendation
         content: Recommending a Web Service by incorporating User related, Service related and Topic related Latent latent factors.
-        # image: /images/projects/converter.jpg
+        image: /images/projects/web_service_recommendation.png
         links:
           - icon: fab fa-github
             url: https://docs.google.com/presentation/d/1lhntC8iRHuMkfNZ16FjbVsKkMZTjtnwT/edit?usp=share_link&ouid=104675213338128089020&rtpof=true&sd=true
 
       - title: Ecommerce Database Using SQL & NoSQL
         content: An E-commerce application developed by leveraging the transactional properties from SQL & faster data retrival properties from MongoDB.
-        # image: /images/projects/profile2.jpg
+        image: /images/projects/SQL_MongoDB.jpeg
         links:
           - icon: fab fa-github
             url: https://docs.google.com/presentation/d/1mkWo-2B44k_dTWMj3269Yly5kmdSMetn/edit?usp=share_link&ouid=104675213338128089020&rtpof=true&sd=true
@@ -258,14 +259,18 @@ params:
     items:
       - title: AWS Developer Associate
         content: Certified Amazon Web Services Developer Associate by Amazon.
+        image: /images/projects/AWS-Certified-Developer-Associate_badge.png
         url: https://www.credly.com/badges/ecfb59be-1fed-4d7b-af92-c3cc4988e10a/public_url
       - title: Microsoft Azure Developer Associate
         content: Certified AMicrosoft Azure Developer Associate by Microsoft.
+        image: /images/projects/azure-developer-associate.png
         url: https://www.credly.com/badges/a3ecea97-a321-46e3-b750-c97d32825ee3
       - title: Connect Four
-        content: Developed a web application, connect four using JAVA & Multi-Threading and deployed it on AWS EC2 instance..
+        content: Developed a web application, connect four using JAVA & Multi-Threading and deployed it on AWS EC2 instance.
+        image: /images/projects/connect-four.jpeg
       - title: Cross Functional Training
         content: Awarded with the First Prize in the Cross Functional Training at Home Credit India Finance Pvt Ltd.
+        image: /images/projects/web_service_recommendation.png
 
   #Contact
   contact:
