@@ -2,28 +2,23 @@ baseURL: "https://sreenivas-sagili.github.io"
 languageCode: "en-us"
 title: "Sreenivas"
 theme: master
-
 Paginate: 3
-enableRobotsTXT: false
-
+# enableRobotsTXT: false
 markup:
   goldmark:
     renderer:
       unsafe: true
-
 params:
   theme:
     disableThemeToggle: false
     defaultTheme: "light" # dark
     color:  
         secondaryBackgroundColor: "Blue"
-
   # If you want to customize the menu, you can change it here
   navbar:
     position: absolute
     disableSearch: true
     searchPlaceholder: "Search"
-
   # Hero
   hero:
     enable: true
@@ -31,8 +26,8 @@ params:
     title: "Sreenivas Sagili"
     content: "A passionate programmer with experience in Software Development & Big Data Analytics who loves to build Microservices and develop API's."
     image: /images/sreeni.png
-    # bottomImage:
-    #   enable: true
+    bottomImage:
+      enable: true
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
@@ -48,12 +43,11 @@ params:
           url: "https://www.twitter.com/@Cnu_Die"
         - icon: fab fa-linkedin-in
           url: "https://www.linkedin.com/in/sagili-sreenivas-reddy-74a490129/"
-
   # About
   about:
     enable: true
-    title: "Eager to Contribute from December 2023!"
     image: "/images/sreee.png"
+    title: "Eager to Contribute from December 2023!"
     content: |-
       Currently, working as a Graduate Teaching Assitant at RIT in Big Data Analytics. A Masters in Computer Science student with 4+ years of professional experience in Java, Spring boot, Spring, Python, FLask, Go, NodeJS, SQL. 
       I have a strong passion for developing Microservices and leveraging DevOps practices to bridge the gap between development and operations, creating efficient and scalable products.
@@ -68,14 +62,12 @@ params:
         - "SQL, MongoDB"
         - "DynamoDB, Cosmos DB"
         - "Docker, Kafka"
-        - "AWS Cloud, Azure Cloud" 
-
+        - "AWS & Azure Cloud" 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-
       - job: "Graduate Teaching Assistant"
         company: "Rochester Institute Of Technology"
         companyUrl: "https://www.rit.edu"
@@ -105,7 +97,6 @@ params:
           - Collaborated with team members to identify and quickly troubleshoot problems, which reduced the downtime of application by 17% per quarter.
           - Created several data visualizations for medical data using D3.js.
           - Performed web scraping on more than 100 websites to generate datasets as a part of the product roadmap.
-
   # Education
   education:
     enable: true
@@ -137,7 +128,6 @@ params:
           Extracurricular Activities
             - Worked as a research volunteer and supported several projects in Deep Learning under Prof Anuradha. 
             - Exemplarily served as the Elected Cultural Association Club Secretary from 2017-2018.
-
     # projects
   projects:
     enable: true
@@ -163,7 +153,6 @@ params:
         links:
           - icon: fab fa-github
             url: https://docs.google.com/presentation/d/1mkWo-2B44k_dTWMj3269Yly5kmdSMetn/edit?usp=share_link&ouid=104675213338128089020&rtpof=true&sd=true
-
   # Achievements
   achievements:
     enable: true
@@ -182,7 +171,6 @@ params:
         image: /images/connect-four.jpeg
       - title: Cross Functional Training
         content: Awarded with the First Prize in the Cross Functional Training at Home Credit India Finance Pvt Ltd.
-
   #Contact
   contact:
     enable: true
@@ -190,7 +178,7 @@ params:
     content: You can email me to get in touch with me. My inbox is always open. 
     email: srinu7529@gmail.com
     btnName: Mail me
-
+  #footer
   footer:
     recentPosts:
       path: "blogs"
