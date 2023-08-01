@@ -24,7 +24,7 @@ params:
     enable: true
     intro: "Hello there! I'm"
     title: "Sreenivas Sagili"
-    content: "A passionate developer with 3+ years of expertise in Software Development & Big Data Analytics who loves to build Microservices and develop API's."
+    content: "A passionate developer with 3+ years of expertise in Software Development & Big Data Analytics, loves to build Microservices and leverage DevOps practices to bridge the gap between development and operations, creating efficient and scalable products."
     image: /images/sreeni.png
     bottomImage:
       enable: true
@@ -49,8 +49,8 @@ params:
     image: "/images/sreee.png"
     title: "Eager to Contribute from December 2023!"
     content: |-
-      Currently, working as a Graduate Teaching Assitant at RIT in Big Data Analytics. A Masters in Computer Science student with 4+ years of professional experience in Java, Spring boot, Spring, Python, FLask, Go, NodeJS, SQL. 
-      I have a strong passion for developing Microservices and leveraging DevOps practices to bridge the gap between development and operations, creating efficient and scalable products.
+      Currently, working as a Graduate Teaching Assitant at RIT in Big Data Analytics. A Masters in Computer Science student with 3+ years of professional experience in Java, Spring boot, Spring, Python, FLask, NodeJS, SQL. 
+      I have a strong interest in the the intersection of Technology and Business. Skills:
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
