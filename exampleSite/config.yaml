@@ -189,7 +189,12 @@ params:
     btnName: Mail me
 
   footer:
-    recentPosts: false
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: false
+      disableFeaturedImage: false
     socialNetworks:
       github: "https://github.com/Sreenivas-Reddy-S"
       linkedin: https://www.linkedin.com/in/sagili-sreenivas-reddy-74a490129/
