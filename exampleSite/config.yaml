@@ -21,8 +21,8 @@ params:
   # If you want to customize the menu, you can change it here
   navbar:
     position: absolute
-    # disableSearch: true
-    # searchPlaceholder: "Search"
+    disableSearch: true
+    searchPlaceholder: "Search"
 
   # Hero
   hero:
@@ -31,8 +31,8 @@ params:
     title: "Sreenivas Sagili"
     content: "A passionate programmer with experience in Software Development & Big Data Analytics who loves to build Microservices and develop API's."
     image: /images/sreeni.png
-    bottomImage:
-      enable: true
+    # bottomImage:
+    #   enable: true
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
@@ -56,7 +56,7 @@ params:
     image: "/images/sreee.png"
     content: |-
       Currently, working as a Graduate Teaching Assitant at RIT in Big Data Analytics. A Masters in Computer Science student with 4+ years of professional experience in Java, Spring boot, Spring, Python, FLask, Go, NodeJS, SQL. 
-      I have a strong interest in the the intersection of Technology and Business. Skills:
+      I have a strong passion for developing Microservices and leveraging DevOps practices to bridge the gap between development and operations, creating efficient and scalable products.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
@@ -64,9 +64,11 @@ params:
         - "JAVA, SPRING"
         - "PYTHON, FLASK"
         - "HTML, CSS"
-        - "JavaScript, NodeJS"
+        - "JavaScript, ReactJs"
         - "SQL, MongoDB"
-        - "AWS Cloud" 
+        - "DynamoDB, Cosmos DB"
+        - "Docker, Kafka"
+        - "AWS Cloud, Azure Cloud" 
 
   # Experience
   experience:
@@ -79,7 +81,7 @@ params:
         companyUrl: "https://www.rit.edu"
         date: "Jan 2022 - Present"
         content: |-
-          - Assisted 60 students in answering technical questions, evaluated their insights, math & analysis on assignments based on the correctness and runtime of their algorithms(classification, clustering) in Big Data Analytics.
+          - Assisted 60 students, evaluated their assignments based on correctness and runtime of their algorithms(classification, clustering) in Big Data Analytics.
           - Designed and evaluated quizzes to reinforce students learning of skills and through weekly check-ins.
           - Empowered students in seamless data sharing within Hadoop clusters on AWS S3 and facilitated ad-hoc data democratization initiatives.
 
@@ -88,9 +90,10 @@ params:
         companyUrl: "https://www.homecredit.co.in/en"
         date: "Jun 2019 - Jul 2021"
         content: |-
-          - As a backend developer, Implemented best practices for various Web API's & Data API's of a micro-services system using Java, Spring, Spring Boot and integrated using MuleSoft Anypoint studio by utilizing the internal framework(SDLC).Testing: 100% Unit tests coverage.
-          - Integrated API's to existing front end application using ReactJs. Setup CI/CD pipeline using Jenkins to auto-deploy the API's in different environments which improved teams efficiency by 30%.
-          - Collaborated effectively with third party vendors to consume their API endpoints and integrate it.
+          - As a passionate developer, Implemented best practices for various Web API's & Data API's of a micro-services system using Java, Spring, Spring Boot and integrated using MuleSoft Anypoint studio by utilizing the internal framework.Testing: 100% Unit tests coverage.
+          - Integrated API's to the existing front end application using ReactJs. Setup CI/CD pipeline using Jenkins to auto-deploy the API's in different environments which improved teams efficiency by 34%.
+          - Improved applications life time by reducing complexities, duplications and potential bugs in code by integrating Codacy for all the API's  and increased unit test coverage by 37%.
+          - Designed innovative dashboards to track application statistics using PowerBI, collaborated effectively with third party vendors to consume their API endpoints and integrate it.
           - Refactored 5 legacy java applications from Java 6 to Java 11.
 
       - job: "Software Developer Intern"
@@ -99,7 +102,7 @@ params:
         date: "Jan 2018 - Jun 2018"
         content: |-
           - Programmed different modules for a medical application using Python & SQL.
-          - Wrote and tested code, improved functionalities & reliability of existing system by 36% reducing complexities, duplications and potential bugs.
+          - Collaborated with team members to identify and quickly troubleshoot problems, which reduced the downtime of application by 17% per quarter.
           - Created several data visualizations for medical data using D3.js.
           - Performed web scraping on more than 100 websites to generate datasets as a part of the product roadmap.
 
@@ -120,7 +123,7 @@ params:
 
           Extracurricular Activities
             - Worked as a research volunteer and supported several projects in Big data Analytics under Prof Kinsman. 
-            - Assistant Vice President of Rotract club from 2016-2017.
+            - Assistant Vice President for Rotract club from 2016-2017.
       - title: "Bachelor of Science in Computer Science"
         school:
           name: "Vellore Institute of Technology, Vellore"
@@ -171,8 +174,8 @@ params:
         image: /images/AWS-Certified-Developer-Associate_badge.png
         url: https://www.credly.com/badges/ecfb59be-1fed-4d7b-af92-c3cc4988e10a/public_url
       - title: Microsoft Azure Developer Associate
-        image: /images/azure-developer-associate.png
         content: Certified AMicrosoft Azure Developer Associate by Microsoft.
+        image: /images/azure-developer-associate.png
         url: https://www.credly.com/badges/a3ecea97-a321-46e3-b750-c97d32825ee3
       - title: Connect Four
         content: Developed a web application, connect four using JAVA & Multi-Threading and deployed it on AWS EC2 instance.
