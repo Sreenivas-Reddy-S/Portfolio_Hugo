@@ -24,7 +24,7 @@ params:
     enable: true
     intro: "Hello there! I'm"
     title: "Sreenivas Sagili"
-    content: "A passionate programmer with experience in Software Development & Big Data Analytics who loves to build Microservices and develop API's."
+    content: "A passionate developer with 3+ years of expertise in Software Development & Big Data Analytics who loves to build Microservices and develop API's."
     image: /images/sreeni.png
     bottomImage:
       enable: true
