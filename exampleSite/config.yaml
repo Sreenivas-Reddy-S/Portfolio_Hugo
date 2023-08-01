@@ -1,7 +1,7 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
-theme: hugo-profile
+# title: "Hugo Profile"
+# theme: hugo-profile
 
 outputs:
   home:
@@ -87,7 +87,7 @@ params:
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    disableSearch: true
     # searchPlaceholder: "Search"
     menus:
       disableAbout: false
@@ -126,7 +126,7 @@ params:
   about:
     enable: true
     title: "Eager to Contribute from December 2023!"
-    image: "/images/sree.png"
+    image: "/images/sree.jpeg"
     content: |-
       Currently, working as a Graduate Teaching Assitant at RIT in Big Data Analytics. A Masters in Computer Science student with 4+ years of professional experience in Java, Spring boot, Spring, Python, FLask, Go, NodeJS, SQL. 
       I have a strong interest in the the intersection of Technology and Business. Skills:
@@ -148,7 +148,7 @@ params:
     items:
 
       - job: "Graduate Teaching Assiatant"
-        company: "RIT"
+        company: "Rochester Institute Of technologyT"
         companyUrl: "https://www.rit.edu"
         date: "Jan 2022 - Present"
         # info:
@@ -186,10 +186,10 @@ params:
         #   enable: true
         #   content: I worked as a software developer for more than one year in Amazon.
         content: |-
-          - "Programmed different modules for a medical application using Python & SQL." 
-          - "Wrote and tested code, improved functionalities & reliability of existing system by 36% reducing complexities, duplications and potential bugs."
-          - "Created several data visualizations for medical data using D3.js."
-          - "Performed web scraping on more than 100 websites to generate datasets as a part of the product roadmap."
+          - Programmed different modules for a medical application using Python & SQL.
+          - Wrote and tested code, improved functionalities & reliability of existing system by 36% reducing complexities, duplications and potential bugs.
+          - Created several data visualizations for medical data using D3.js.
+          - Performed web scraping on more than 100 websites to generate datasets as a part of the product roadmap.
 
 
   # Education
@@ -203,9 +203,10 @@ params:
           name: "Rochester Institute Of Technology, New York"
         date: "2021 - 2023"
         GPA: "3.5 out of 4.0"
-        content: |
+        content: |-
           - Worked as a Graduate Teaching Assistant for Big Data Analytics at Rochester Institute Of Technology.
           - Relevant Academic Coursework: Data Structures and Algorithms, Advanced Object-Oriented Programming, Problem-Solving, Big Data Analytics, NoSQL/NewSQL Databases, Natural language processing, Distributed Systems, Machine Learning, Web Services & System Programming.
+
           Extracurricular Activities
             - Worked as a research volunteer and supported several projects in Big data Analytics under Prof Kinsman. 
             - Assistant Vice President of Rotract club from 2016-2017.
@@ -214,10 +215,11 @@ params:
           name: "Vellore Institute of Technology, Vellore"
         date: "2015 - 2019"
         GPA: "8.4 out of 10.0"
-        content: |
+        content: |-
           - Won 2nd price in a Tech Workship conducted in VIT by IEEE club.
           - Computer Science Courses: Web Progromming, Cloud Computing, Cryptography and Network Security, Computer Programming, Data Structures, Computer Networks, Computer Architecture, Compiler Design, IoT (Internet of Things), Operating Systems, Distributed and Parallel Computing, High Performance Computing, Theory of Computation, Object Oriented Analysis and Design.
           - Data Science Courses: Artificial Intelligence, Web Mining, Big Data Analytics, Content based image analysis, Database Management.
+          
           Extracurricular Activities
             - Worked as a research volunteer and supported several projects in Deep Learning under Prof Anuradha. 
             - Exemplarily served as the Elected Cultural Association Club Secretary from 2017-2018.
@@ -229,7 +231,7 @@ params:
     # title: "Custom Name"
     items:
       - title: Stock Price Prediction
-        content: "To predict the prices of stock at the smallest level of granularity using Artificial Neural Networks. Containerized extensible data ingestion, with out of the box implementation for the stock data and a neural network based model LSTM, well suitable for the time series data."
+        content: To predict the prices of stock at the smallest level of granularity using Artificial Neural Networks. Containerized extensible data ingestion, with out of the box implementation for the stock data and a neural network based model LSTM, well suitable for the time series data.
         image: /images/projects/stock-price-prediction.jpeg
         links:
           - icon: fab fa-github
@@ -243,7 +245,7 @@ params:
           - icon: fab fa-github
             url: https://docs.google.com/presentation/d/1lhntC8iRHuMkfNZ16FjbVsKkMZTjtnwT/edit?usp=share_link&ouid=104675213338128089020&rtpof=true&sd=true
 
-      - title: Ecommerce Database Using SQL & NoSQL
+      - title: Ecommerce Database System Using SQL & NoSQL
         content: An E-commerce application developed by leveraging the transactional properties from SQL & faster data retrival properties from MongoDB.
         image: /images/projects/SQL_MongoDB.jpeg
         links:
@@ -269,7 +271,7 @@ params:
         image: /images/projects/connect-four.jpeg
       - title: Cross Functional Training
         content: Awarded with the First Prize in the Cross Functional Training at Home Credit India Finance Pvt Ltd.
-        image: /images/projects/web_service_recommendation.png
+        
 
   #Contact
   contact:
@@ -289,7 +291,7 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
       github: "https://github.com/Sreenivas-Reddy-S"
