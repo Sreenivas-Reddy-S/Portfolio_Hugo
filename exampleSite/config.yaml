@@ -119,8 +119,7 @@ Menus:
           url: "https://github.com/Sreenivas-Reddy-S"
         - icon: fab fa-twitter
           url: "https://www.twitter.com/@Cnu_Die"
-      customIcons:
-        - icon: fab fa-linkedin
+        - icon: fab fa-linkedin-in
           url: "https://www.linkedin.com/in/sagili-sreenivas-reddy-74a490129/"
 
   # About
