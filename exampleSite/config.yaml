@@ -135,11 +135,11 @@ params:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "JAVA", "SPRING"
-        - "PYTHON", "FLASK"
-        - "HTML", "CSS"
-        - "JavaScript", "NodeJS"
-        - "SQL", "MongoDB"
+        - "JAVA, SPRING"
+        - "PYTHON, FLASK"
+        - "HTML, CSS"
+        - "JavaScript, NodeJS"
+        - "SQL, MongoDB"
         - "AWS Cloud" 
 
   # Experience
@@ -171,7 +171,7 @@ params:
         #   name: "View the project"
         #   url: "https://example.com"
         content: 
-          - "As a backend developer, Implemented best practices for various Web API's & Data API's of a micro-services system using Java, Spring, Spring Boot and integrated using MuleSoft Anypoint studio by utilizing the internal framework(SDLC).Testing: 100% Unit tests coverage".
+          - "As a backend developer, Implemented best practices for various Web API's & Data API's of a micro-services system using Java, Spring, Spring Boot and integrated using MuleSoft Anypoint studio by utilizing the internal framework(SDLC).Testing: 100% Unit tests coverage."
           - "Integrated API's to existing front end application using ReactJs. Setup CI/CD pipeline using Jenkins to auto-deploy the API's in different environments which improved teams efficiency by 30%."
           - "Collaborated effectively with third party vendors to consume their API endpoints and integrate it."
           - "Refactored 5 legacy java applications from Java 6 to Java 11."
@@ -229,8 +229,7 @@ params:
     # title: "Custom Name"
     items:
       - title: Stock Price Prediction
-        content: To predict the prices of stock at the smallest level of granularity using Artificial Neural Networks. Containerized extensible data ingestion, with out of 
-        the box implementation for the stock data and a neural network based model LSTM, well suitable for the time series data.
+        content: "To predict the prices of stock at the smallest level of granularity using Artificial Neural Networks. Containerized extensible data ingestion, with out of the box implementation for the stock data and a neural network based model LSTM, well suitable for the time series data."
         # image: /images/projects/converter.jpg
         links:
           - icon: fab fa-github
