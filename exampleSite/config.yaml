@@ -168,18 +168,18 @@ params:
     # title: "Custom Name"
     items:
       - title: AWS Developer Associate
-        image: /images/projects/Amazon_Developer_Associate.png
+        image: exampleSite/static/images/projects/Amazon_Developer_Associate.png
         icon: fab fa-github
         content: Certified Amazon Web Services Developer Associate by Amazon.
         url: https://www.credly.com/badges/ecfb59be-1fed-4d7b-af92-c3cc4988e10a/public_url
       - title: Microsoft Azure Developer Associate
-        image: /images/projects/Azure_Developer_Associate.png
+        image: exampleSite/static/images/projects/Azure_Developer_Associate.png
         icon: fab fa-github
         content: Certified AMicrosoft Azure Developer Associate by Microsoft.
         url: https://www.credly.com/badges/a3ecea97-a321-46e3-b750-c97d32825ee3
       - title: Connect Four
         content: Developed a web application, connect four using JAVA & Multi-Threading and deployed it on AWS EC2 instance.
-        image: /static/images/projects/connect-four.jpeg
+        image: exampleSite/static/images/projects/connect-four.jpeg
       - title: Cross Functional Training
         content: Awarded with the First Prize in the Cross Functional Training at Home Credit India Finance Pvt Ltd.
   #Contact
