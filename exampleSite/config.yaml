@@ -153,7 +153,7 @@ params:
         image: /images/projects/SQL_MongoDB.jpeg
         links:
           - icon: fab fa-github
-            url: https://docs.google.com/presentation/d/1mkWo-2B44k_dTWMj3269Yly5kmdSMetn/edit?usp=share_link&ouid=104675213338128089020&rtpof=true&sd=true
+            url: https://docs.google.com/presentation/d/1WvP9sFdQHLJSTG9juugcbpR1ZdIuAO4sq1SNKQmaor4/edit?usp=share_link
   
       - title: House Price Prediction
         content: A web-based house price prediction application with accurate estimates based on location, area, total_sqft, bhk, and bath inputs.
@@ -171,17 +171,15 @@ params:
         image: /images/projects/Amazon_Developer_Associate.png
         icon: fab fa-github
         content: Certified Amazon Web Services Developer Associate by Amazon.
-        image: /images/AWS-Certified-Developer-Associate_badge.png
         url: https://www.credly.com/badges/ecfb59be-1fed-4d7b-af92-c3cc4988e10a/public_url
       - title: Microsoft Azure Developer Associate
         image: /images/projects/Azure_Developer_Associate.png
         icon: fab fa-github
         content: Certified AMicrosoft Azure Developer Associate by Microsoft.
-        image: /images/azure-developer-associate.png
         url: https://www.credly.com/badges/a3ecea97-a321-46e3-b750-c97d32825ee3
       - title: Connect Four
         content: Developed a web application, connect four using JAVA & Multi-Threading and deployed it on AWS EC2 instance.
-        image: /images/connect-four.jpeg
+        image: /static/images/projects/connect-four.jpeg
       - title: Cross Functional Training
         content: Awarded with the First Prize in the Cross Functional Training at Home Credit India Finance Pvt Ltd.
   #Contact
